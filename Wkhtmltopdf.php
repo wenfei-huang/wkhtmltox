@@ -1,9 +1,8 @@
 <?php
-namespace Wkhtmltox;
+namespace wenfeihuang\Wkhtmltox;
 
 class Wkhtmltopdf
 {
-    const BIONICAMD64 = __DIR__ . '/bin/wkhtmltopdf-bionic-amd64';
-    const BIONICI386 = __DIR__ . '/bin/wkhtmltopdf-bionic-i386';
+    const wkhtmltopdfx64 = __DIR__ . '/bin/wkhtmltopdf_0.12.6_linux_ubuntu_focal_amd64';
 }
 

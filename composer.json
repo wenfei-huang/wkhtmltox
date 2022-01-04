@@ -1,34 +1,30 @@
 {
-    "name": "michael-schaefer-eu/wkhtmltox",
+    "name": "wenfei-huang/wkhtmltox",
     "description": "wkhtmltopdf and wkhtmltoimage linux binaries - Convert HTML to PDF or IMAGE using Webkit (QtWebKit)",
-    "keywords": ["htmltox", "htmltopdf", "htmltoimage", "pdf", "thumbnail", "snapshot", "jpg", "png", "convert", "binary"],
+    "keywords": ["htmltox", "htmltopdf", "htmltoimage", "pdf", "thumbnail", "snapshot", "jpg", "png", "convert", "binary", "ubuntu", "focal"],
     "license": "LGPL-3.0-only",
     "homepage": "http://wkhtmltopdf.org/",
     "authors": [
         {
-            "name": "Michael Schaefer",
-            "email": "mail@michael-schaefer.eu",
-            "role": "Composer Package Developer"
+            "name": "Wenfei Huang",
+            "email": "whuang@yellowfle.com",
+            "role": "Developer"
         }
     ],
     "minimum-stability": "stable",
     "bin": [
-        "bin/wkhtmltoimage-bionic-amd64",
-        "bin/wkhtmltopdf-bionic-amd64",
-        "bin/wkhtmltoimage-bionic-i386",
-        "bin/wkhtmltopdf-bionic-i386"
+        "bin/wkhtmltoimage_0.12.6_linux_ubuntu_focal_amd64",
+        "bin/wkhtmltopdf_0.12.6_linux_ubuntu_focal_amd64"
     ],
     "replace": {
-        "h4cc/wkhtmltopdf-i386": "0.12.4",
         "h4cc/wkhtmltopdf-amd64": "0.12.4",
-        "h4cc/wkhtmltoimage-i386": "0.12.4",
         "h4cc/wkhtmltoimage-amd64": "0.12.4"
     },
     "require": {
     },
     "autoload": {
         "psr-4": {
-            "Wkhtmltox\\": ""
+            "wenfeihuang\\Wkhtmltox\\": ""
         }
     }
 }

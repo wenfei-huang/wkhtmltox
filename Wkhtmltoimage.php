@@ -1,9 +1,8 @@
 <?php
-namespace Wkhtmltox;
+namespace wenfeihuang\Wkhtmltox;
 
 class Wkhtmltoimage
 {
-    const BIONICAMD64 = __DIR__ . '/bin/wkhtmltoimage-bionic-amd64';
-    const BIONICI386 = __DIR__ . '/bin/wkhtmltoimage-bionic-i386';
+    const wkhtmltoimagex64 = __DIR__ . '/bin/wkhtmltoimage_0.12.6_linux_ubuntu_focal_amd64';
 }
 
